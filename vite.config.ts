@@ -19,3 +19,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+export default defineConfig({
+  base: '/jouw-repo-naam/',
+  plugins: [react()],
+})
