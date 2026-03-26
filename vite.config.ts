@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/Wikitech2026/",
+  base: "/",
   server: {
     host: "0",
     port: 8080,
